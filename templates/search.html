@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Results</h1>
+
+    {% for result in results %}
+        <div class="result">
+            <a href="{{result['url']}}">{{ result["title"] }}</a>
+        </div>
+    {% endfor %}
+{% endblock %}
