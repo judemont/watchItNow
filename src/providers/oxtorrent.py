@@ -1,4 +1,4 @@
-import api.utils as utils
+import src.utils as utils
 from bs4 import BeautifulSoup
 import urllib.parse
 

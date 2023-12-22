@@ -1,5 +1,5 @@
-import api.utils as utils
-import api.providers.oxtorrent as oxtorrent
+import src.utils as utils
+import src.providers.oxtorrent as oxtorrent
 from flask import Flask, render_template, request, url_for, flash, redirect
 import urllib.parse
 
